@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.container input{
+    margin: 0px 0px 20px 0px;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de salário líquido</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    
+</head>
+<body>
+  <div class="container">
+    
+        <input id="inputNome" class="form-control form-control-sm" type="text" placeholder="Nome" required>
+        <input id="inputDependentes" class="form-control form-control-sm" type="number" placeholder="Dependentes" required>
+        <input id="inputSalBruto" class="form-control form-control-sm" type="number" placeholder="Salário bruto" required>
+        <button type="button" name="botaoDeCadastro" onclick="validaCampos()"class="btn btn-primary">Cadastrar</button>
+        <button type="button" onclick="limpaInputs()" class="btn btn-outline-secondary">Cancelar</button>
+
+  </div>
+
+    <table class="table table-striped" id="tabelaPessoas">
+        <thead>
+          <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Dependentes</th>
+            <th scope="col">Salário bruto</th>
+            <th scope="col">Faixa INSS</th>
+            <th scope="col">Desconto INSS</th>
+            <th scope="col">Faixa IRRF</th>
+            <th scope="col">Desconto IRPF</th>
+            <th scope="col">Salário líquido</th>
+
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+          </tr>
+        </tbody>
+      </table>
+      <script src="index.js"></script>
+</body>
+</html>
